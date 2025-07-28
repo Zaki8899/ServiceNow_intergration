@@ -3,8 +3,8 @@
         <element label="Name" max_length="50" name="name" type="string"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="available" value="available"/>
                 <element inactive_on_update="false" label="in-use" value="in-use"/>
+                <element inactive_on_update="false" label="available" value="available"/>
             </choice>
         </element>
         <element label="service tag" max_length="50" name="service_tag" reference_qual="null" reference_qual_condition="null" type="string"/>
