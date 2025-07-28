@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="df38469883032210765c9610feaad3b9" label="main table_dell" max_length="40" name="x_1798300_dell_r_0_main_table_dell" type="collection">
+        <element label="Name" max_length="50" name="name" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="available" value="available"/>
+                <element inactive_on_update="false" label="in-use" value="in-use"/>
+            </choice>
+        </element>
+        <element label="service tag" max_length="50" name="service_tag" reference_qual="null" reference_qual_condition="null" type="string"/>
+        <element label="ip address" max_length="50" name="ip_address" type="string"/>
+    </element>
+</database>

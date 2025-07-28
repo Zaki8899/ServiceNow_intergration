@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Dell reservation system Requests">af6e1cbb83362210765c9610feaad38b</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_1798300_dell_r_0.agent" name="x_1798300_dell_r_0.agent">ee5ed8bb83362210765c9610feaad3a8</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-24 07:32:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>247edc7b83362210765c9610feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>af6e1cbb83362210765c9610feaad38b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_update_name>par_dashboard_permission_247edc7b83362210765c9610feaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-24 07:32:53</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

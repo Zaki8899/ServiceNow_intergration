@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="02c94e1c83032210765c9610feaad3f5" label="custom table_dell" max_length="40" name="x_1798300_dell_r_0_custom_table_dell" type="collection">
+        <element label="start date" max_length="50" name="start_date" type="glide_date_time"/>
+        <element label="RITM" max_length="50" name="ritm" reference_qual="null" reference_qual_condition="null" type="string"/>
+        <element label="requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element choice="1" label="hardware items" max_length="50" name="hardware_items" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SUSE VM" value="SUSE VM"/>
+                <element inactive_on_update="false" label="PowerScale" value="PowerScale"/>
+                <element inactive_on_update="false" label="windows VM" value="windows VM"/>
+                <element inactive_on_update="false" label="Ubuntu VM" value="Ubuntu VM"/>
+                <element inactive_on_update="false" label="PowerFlex" value="PowerFlex"/>
+                <element inactive_on_update="false" label="PowerStore" value="PowerStore"/>
+                <element inactive_on_update="false" label="Linux VM" value="Linux VM"/>
+                <element inactive_on_update="false" label="PowerEdge" value="PowerEdge"/>
+            </choice>
+        </element>
+        <element label="ip address" max_length="32" name="ip_address" reference="x_1798300_dell_r_0_main_table_dell" type="reference"/>
+        <element label="Number" max_length="50" name="number" reference_qual="null" reference_qual_condition="null" type="integer"/>
+        <element choice="1" label="Status" max_length="50" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="completed" value="completed"/>
+                <element inactive_on_update="false" label="reserved" value="reserved"/>
+                <element inactive_on_update="false" label="cancelled" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="end date " max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Purpose" max_length="100" name="purpose" type="string"/>
+        <index name="index">
+            <element name="ip_address"/>
+        </index>
+        <index name="index2">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>

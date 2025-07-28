@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 08:00:00</entered_time>
+        <max_drift/>
+        <name>reserved to completed[custom table_dell]</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2025-07-26 04:55:55</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[(function executeRule(current, gsr) {
+    var gr = new GlideRecord('x_1798300_dell_r_0_custom_table'); // Replace with your actual table name
+    gr.addQuery('status', 'reserved');
+    gr.query();
+
+    var now = new GlideDateTime(); // Current time in GMT
+
+    while (gr.next()) {
+        var endDate = gr.getValue('end_date'); // Assuming 'end_date' is the field name
+        var endDateTime = new GlideDateTime(endDate);
+
+        if (endDateTime.before(now)) {
+            gr.setValue('status', 'completed');
+            gr.update();
+        }
+    }
+})();
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 05:10:04</sys_created_on>
+        <sys_id>34bd829083432210765c9610feaad362</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>reserved to completed[custom table_dell]</sys_name>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_update_name>sysauto_script_34bd829083432210765c9610feaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 06:05:56</sys_updated_on>
+        <time_zone>GMT</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>34bd829083432210765c9610feaad362</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 06:05:55</sys_created_on>
+        <sys_id>c6bd5e9483832210765c9610feaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 06:05:55</sys_updated_on>
+        <table>sysauto_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
