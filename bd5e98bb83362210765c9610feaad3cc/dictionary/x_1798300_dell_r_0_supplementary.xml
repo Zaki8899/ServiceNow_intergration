@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9562700983832210765c9610feaad3df" label="supplementary " max_length="40" name="x_1798300_dell_r_0_supplementary" type="collection">
-        <element label="name app" max_length="50" name="name_app" type="string"/>
-    </element>
-</database>
