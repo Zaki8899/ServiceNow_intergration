@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">b76edcbb83362210765c9610feaad370</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"x_1798300_dell_r_0_request","fixedQuery":"active=true","listTitle":"All Active Tasks","columns":"","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"refreshRequested":""}</component_props>
+        <h>20</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-24 07:32:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7b6edcbb83362210765c9610feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_update_name>par_dashboard_widget_7b6edcbb83362210765c9610feaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-24 07:32:50</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>15</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</application>
+        <file_path/>
+        <instance_id>27e6829b1b62b154c84543f4bd4bcb8d</instance_id>
+        <instance_name>dev220503</instance_name>
+        <name>par_dashboard_widget_7b6edcbb83362210765c9610feaad392</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">b76edcbb83362210765c9610feaad370</canvas><component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component><component_props>{"table":"x_1798300_dell_r_0_request","fixedQuery":"active=true","listTitle":"All Active Tasks","columns":"","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"refreshRequested":""}</component_props><h>20</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-24 07:32:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7b6edcbb83362210765c9610feaad392</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package><sys_policy/><sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope><sys_update_name>par_dashboard_widget_7b6edcbb83362210765c9610feaad392</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-24 07:32:50</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>15</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>943611206</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>fd5e98bb83362210765c9610feaad3d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-24 07:32:50</sys_created_on>
+        <sys_id>f36edcbb83362210765c9610feaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1983b5963b30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-24 07:32:50</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>f76edcbb08362210337c4dd951aec893</update_guid>
+        <update_guid_history>f76edcbb08362210337c4dd951aec893:943611206</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7f6edcbb83362210765c9610feaad3aa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-24 07:32:50</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>25a1b6c38897434693561df947c96491</sys_id>
+        <sys_metadata>7b6edcbb83362210765c9610feaad392</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_scope_delete display_value="">293124c0add846a98e1ebb5d4ca883c9</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_7b6edcbb83362210765c9610feaad392</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_7b6edcbb83362210765c9610feaad392">f36edcbb83362210765c9610feaad394</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-24 07:32:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

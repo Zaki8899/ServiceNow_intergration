@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="main table_dell" language="en" table="x_1798300_dell_r_0_main_table_dell">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>main table_dell</label>
+            <language>en</language>
+            <name>x_1798300_dell_r_0_main_table_dell</name>
+            <plural>main table_dells</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-26 04:32:25</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>main table_dell</sys_name>
+            <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+            <sys_update_name>sys_documentation_x_1798300_dell_r_0_main_table_dell__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-26 04:32:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

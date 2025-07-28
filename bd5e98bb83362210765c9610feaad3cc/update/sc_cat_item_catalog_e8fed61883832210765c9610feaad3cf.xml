@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="device reservation _dell">7ede5a1883832210765c9610feaad353</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 06:11:17</sys_created_on>
+        <sys_id>e8fed61883832210765c9610feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.device reservation _dell</sys_name>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_e8fed61883832210765c9610feaad3cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 06:11:17</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
