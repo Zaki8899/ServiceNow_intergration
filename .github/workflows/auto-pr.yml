@@ -1,0 +1,34 @@
+name: Auto Pull Request and Merge
+
+on:
+  push:
+    branches:
+      - servicenow_latest  # Replace with your ServiceNow commit branch
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'Automated commit from ServiceNow'
+          branch: auto-pr-branch
+          title: 'Automated Pull Request'
+          body: 'This PR was created automatically after a commit from ServiceNow.'
+
+  auto-merge:
+    needs: create-pull-request
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Auto Merge Pull Request
+        uses: pascalgn/automerge-action@v0.15.3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
