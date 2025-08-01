@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="zaki">0e22458d83c32210765c9610feaad3cb</application>
+        <filter/>
+        <name>zakis</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1798300_dell_r_0.zaki_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 07:21:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a22458d83c32210765c9610feaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>zakis</sys_name>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_update_name>sys_ui_module_8a22458d83c32210765c9610feaad3ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 07:21:19</sys_updated_on>
+        <table>x_1798300_dell_r_0_zaki</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</application>
+        <file_path/>
+        <instance_id>27e6829b1b62b154c84543f4bd4bcb8d</instance_id>
+        <instance_name>dev220503</instance_name>
+        <name>sys_ui_module_8a22458d83c32210765c9610feaad3ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="zaki">0e22458d83c32210765c9610feaad3cb</application><filter/><name>zakis</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1798300_dell_r_0.zaki_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 07:21:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8a22458d83c32210765c9610feaad3ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>zakis</sys_name><sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package><sys_policy/><sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope><sys_update_name>sys_ui_module_8a22458d83c32210765c9610feaad3ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 07:21:19</sys_updated_on><table>x_1798300_dell_r_0_zaki</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-195603456</payload_hash>
+        <record_name>zakis</record_name>
+        <reverted_from/>
+        <source>ce130dcd83c32210765c9610feaad375</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 07:25:25</sys_created_on>
+        <sys_id>4e130dcd83c32210765c9610feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1984fec085e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 07:25:25</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c222458d88c3221070b30ec7336753d0</update_guid>
+        <update_guid_history>c222458d88c3221070b30ec7336753d0:-195603456,c203c5cd95c322102ad7724c3d8783c2:-2127834009,7d03c5cdb2c32210afcab88d3d2ad250:0,c222458d88c3221070b30ec7336753d0:-195603456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 05:11:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>09275d3d9c3648809c4e242950f40400</sys_id>
+        <sys_metadata>8a22458d83c32210765c9610feaad3ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>zakis</sys_name>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_scope_delete display_value="">293124c0add846a98e1ebb5d4ca883c9</sys_scope_delete>
+        <sys_update_name>sys_ui_module_8a22458d83c32210765c9610feaad3ce</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_8a22458d83c32210765c9610feaad3ce">4e130dcd83c32210765c9610feaad3f6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 05:11:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
