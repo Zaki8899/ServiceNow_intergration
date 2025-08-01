@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_1798300_dell_r_0_zaki</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 05:46:50</sys_created_on>
+        <sys_id>70e2151683432210765c9610feaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1798300_dell_r_0_zaki</sys_name>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_update_name>ua_table_licensing_config_70e2151683432210765c9610feaad395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 05:46:50</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</application>
+        <file_path/>
+        <instance_id>27e6829b1b62b154c84543f4bd4bcb8d</instance_id>
+        <instance_name>dev220503</instance_name>
+        <name>ua_table_licensing_config_70e2151683432210765c9610feaad395</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_1798300_dell_r_0_zaki</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-01 05:46:50</sys_created_on><sys_id>70e2151683432210765c9610feaad395</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1798300_dell_r_0_zaki</sys_name><sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package><sys_policy/><sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope><sys_update_name>ua_table_licensing_config_70e2151683432210765c9610feaad395</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-01 05:46:50</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>1276003121</payload_hash>
+        <record_name>x_1798300_dell_r_0_zaki</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 05:47:21</sys_created_on>
+        <sys_id>a803191683432210765c9610feaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198642bb13a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 05:47:21</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>680319165b4322108fb8943ac942c871</update_guid>
+        <update_guid_history>680319165b4322108fb8943ac942c871:1276003121</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 05:47:21</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>6a2bfb0dd7f74b8fb9e3dc1bf289d0c1</sys_id>
+        <sys_metadata>70e2151683432210765c9610feaad395</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1798300_dell_r_0_zaki</sys_name>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_scope_delete display_value="">293124c0add846a98e1ebb5d4ca883c9</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_70e2151683432210765c9610feaad395</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_70e2151683432210765c9610feaad395">a803191683432210765c9610feaad371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 05:47:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

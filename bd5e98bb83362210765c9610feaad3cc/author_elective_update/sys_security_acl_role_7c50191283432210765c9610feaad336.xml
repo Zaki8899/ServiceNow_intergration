@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 05:35:37</sys_created_on>
+        <sys_id>7c50191283432210765c9610feaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1798300_dell_r_0_zaki.admin</sys_name>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_security_acl display_value="x_1798300_dell_r_0_zaki">3450191283432210765c9610feaad333</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7c50191283432210765c9610feaad336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 05:35:37</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</application>
+        <file_path/>
+        <instance_id>27e6829b1b62b154c84543f4bd4bcb8d</instance_id>
+        <instance_name>dev220503</instance_name>
+        <name>sys_security_acl_role_7c50191283432210765c9610feaad336</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-01 05:35:37</sys_created_on><sys_id>7c50191283432210765c9610feaad336</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1798300_dell_r_0_zaki.admin</sys_name><sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package><sys_policy/><sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope><sys_security_acl display_value="x_1798300_dell_r_0_zaki">3450191283432210765c9610feaad333</sys_security_acl><sys_update_name>sys_security_acl_role_7c50191283432210765c9610feaad336</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-01 05:35:37</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-413928397</payload_hash>
+        <record_name>x_1798300_dell_r_0_zaki.admin</record_name>
+        <reverted_from/>
+        <source>a480115283432210765c9610feaad3af</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 05:36:27</sys_created_on>
+        <sys_id>3080515283432210765c9610feaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1986421b4310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 05:36:27</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>f050191284432210cb8dce88e54f7639</update_guid>
+        <update_guid_history>f050191284432210cb8dce88e54f7639:-413928397,6e60d912ea43221012fa7e7f8a18f587:-1728334169,f050191284432210cb8dce88e54f7639:-413928397</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1798300_dell_r_0_zaki.admin">35c25dd283432210765c9610feaad3cb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 05:46:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>ae20e319340c40bfb828fbe8d5e220b1</sys_id>
+        <sys_metadata>7c50191283432210765c9610feaad336</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1798300_dell_r_0_zaki.admin</sys_name>
+        <sys_package display_value="Dell reservation system" source="x_1798300_dell_r_0">bd5e98bb83362210765c9610feaad3cc</sys_package>
+        <sys_parent display_value="">3450191283432210765c9610feaad333</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Dell reservation system">bd5e98bb83362210765c9610feaad3cc</sys_scope>
+        <sys_scope_delete display_value="">293124c0add846a98e1ebb5d4ca883c9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_7c50191283432210765c9610feaad336</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_7c50191283432210765c9610feaad336">3080515283432210765c9610feaad343</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 05:46:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
