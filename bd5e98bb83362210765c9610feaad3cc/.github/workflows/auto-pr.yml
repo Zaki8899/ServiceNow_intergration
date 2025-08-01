@@ -3,7 +3,7 @@ name: Auto Pull Request and Merge
 on:
   push:
     branches:
-      - servicenow_latest  # Replace with your ServiceNow commit branch
+      - servicenow_latest  
 
 jobs:
   create-pull-request:
